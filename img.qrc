@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>background/space.jpg</file>
+        <file>sound/game_over.wav</file>
+        <file>sound/go.wav</file>
+        <file>background/op2.jpg</file>
+    </qresource>
+</RCC>

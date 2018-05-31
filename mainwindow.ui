@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>788</width>
+    <height>443</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>-60</x>
+      <y>-20</y>
+      <width>885</width>
+      <height>1402</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="leftMargin">
+      <number>420</number>
+     </property>
+     <property name="topMargin">
+      <number>100</number>
+     </property>
+     <property name="rightMargin">
+      <number>350</number>
+     </property>
+     <property name="bottomMargin">
+      <number>1100</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="button_play">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(255, 209, 103)</string>
+       </property>
+       <property name="text">
+        <string>Play</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="button_options">
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(255, 209, 103)</string>
+       </property>
+       <property name="text">
+        <string>Options</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="button_exit">
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(255, 209, 103)</string>
+       </property>
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>788</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
